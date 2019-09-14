@@ -2,10 +2,10 @@
 使用pytorch+bert的方式，将问题转换成多标签的预测问题，[比赛地址](https://www.datafountain.cn/competitions/353 )
 
 ### 训练
-CUDA_VISIBLE_DEVICES=0 python code/train.py
+cd code; CUDA_VISIBLE_DEVICES=0 python train.py
 
 ### 预测
-CUDA_VISIBLE_DEVICES=0 python code/infer.py
+cd code; CUDA_VISIBLE_DEVICES=0 python infer.py
 
 ### ToDo
 1. 数据增强，将实体进行替换后训练
